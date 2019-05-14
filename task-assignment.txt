@@ -1,0 +1,23 @@
+Student Mark program
+
+Write an assembly program (using 8086 MASM language) to calculate class work grades for each student in a class and the average grade in the class. Each student has three marks for three tasks. The total grade for a student equals the summation of the maximum two grades.
+The program must achieve the following specs:
+1- The number of students in the class is specified by the user.
+2- Each task has marks in the range of [0, 5] (integer values only).
+3- The total grade of a student is in the range of [0, 10] (integer values only).
+4- Use emu8086 software to write, assemble, and emulate your code.
+5- When you run your code:
+a. Console window must be opened.
+b. The text, “Please enter the number of students in the class: ”, is printed on the console window.
+c. The user enters a number in the range of [1 – 30], followed by “Enter” press.
+d. Any number outside the range is unacceptable. If happened, print the text “Please enter suitable number in the range of [1 - 30]: ”, then go to step c.
+e. The number 0, if pressed, will cause the program to terminate.
+f. The text, “Marks of student number (”, followed by student number, followed by “)” and a new line, is then printed on the console window.
+g. The user enters three numbers representing task marks, separated by “Enter” press.
+h. Steps f and g are repeated until all student data is entered.
+i. The text, “Total grade of student number (”, followed by student number, “)is: ”, student grade, and finally a new line, is printed on the console window a number of times equals the number of students.
+j. The text, “The average grade in the class is: “, followed by the average grade, and a new line, is finally printed on the console window.
+k. The program is finished, go to step b to repeat the operation for a new class.
+6- Write comments in your code so that it could be understood.
+Notes:
+1- It is not allowed to use emulator “off the shelf” functions, write everything yourself.
